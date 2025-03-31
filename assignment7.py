@@ -71,4 +71,4 @@ def update_final(year):
     return f'The {year} FIFA World Cup winner was {row["Winner"]} and the runner up was {row["Runner Up"]}'
 
 if __name__ == '__main__':
-    app.run(debug=False, port=8051)
+    app.run(debug=False)
