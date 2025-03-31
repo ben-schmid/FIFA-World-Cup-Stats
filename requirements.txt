@@ -2,3 +2,4 @@ dash==2.14.1
 flask==2.2.5
 pandas
 plotly
+gunicorn
