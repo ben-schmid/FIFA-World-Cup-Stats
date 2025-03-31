@@ -1,3 +1,4 @@
-dash==2.6.0
+dash==2.14.1
+flask==2.2.5
 pandas
-gunicorn
+plotly
