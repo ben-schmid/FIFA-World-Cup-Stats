@@ -2,7 +2,7 @@ import pandas as pd
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 
-df = pd.read_csv('Assignment7/FifaSats.csv')
+df = pd.read_csv('FIFA-World-Cup-Stats/FifaStats.csv')
 
 winner_counts = df['Winner'].value_counts().reset_index()
 winner_counts.columns = ['Country', 'Wins']
